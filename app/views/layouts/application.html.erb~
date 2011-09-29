@@ -5,7 +5,10 @@
     <%= csrf_meta_tag %>
   </head>
   <body>
+    <h1>Sample App</h1>
+    <p>
     <%= yield %>
+    </p>
   </body>
 </html>
 
